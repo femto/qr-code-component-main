@@ -26,6 +26,8 @@ body {
     height: 100vh;
 }
 .card {
+    padding: 17px;
+    border-radius: 10px;
     width : 320px;
     margin: 0 auto;
     background: var(--clr-white);
