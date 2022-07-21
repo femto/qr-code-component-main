@@ -1,0 +1,58 @@
+*,*:before,*:after {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/*- White: hsl(0, 0%, 100%)*/
+/*- Light gray: hsl(212, 45%, 89%)*/
+/*- Grayish blue: hsl(220, 15%, 55%)*/
+/*- Dark blue: hsl(218, 44%, 22%)*/
+:root {
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-light-gray: hsl(212, 45%, 89%);
+    --clr-grayish-blue:hsl(220, 15%, 55%);
+    --clr-dark-blue: hsl(218, 44%, 22%)
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--clr-light-gray);
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    width : 320px;
+    margin: 0 auto;
+    background: var(--clr-white);
+}
+.card h3 {
+    margin-top: 30px;
+    margin-bottom: 24px;
+    width:260px;
+    margin-left:auto;
+    margin-right:auto;
+    font-weight: bold
+}
+.card p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--clr-grayish-blue);
+    width:250px;
+    margin:0 auto;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card img {
+    width:287px;
+    display: block;
+    margin: 0 auto;
+}
