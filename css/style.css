@@ -63,4 +63,5 @@ body {
 }
 .unseen {
     text-indent: -20000px;
+    height: 0;
 }
