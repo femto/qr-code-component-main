@@ -46,6 +46,7 @@ body {
     color: var(--clr-grayish-blue);
     width:250px;
     margin:0 auto;
+    opacity: 60%;
 }
 .flex {
     display: flex;
@@ -57,4 +58,5 @@ body {
     width:287px;
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
 }
